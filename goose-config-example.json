@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "github-calendar": {
+      "command": "bash",
+      "args": ["/Users/rizel/Desktop/redesign-for-the-ridiculous/github-calendar-mcp/start-server.sh"],
+      "env": {
+        "GITHUB_TOKEN": "your_github_token_here"
+      }
+    }
+  }
+}

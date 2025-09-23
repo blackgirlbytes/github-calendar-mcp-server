@@ -1,0 +1,29 @@
+{
+  "name": "github-calendar-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server for GitHub project calendar and team management",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@mcp-ui/server": "^5.11.0",
+    "@modelcontextprotocol/sdk": "^0.5.0",
+    "@octokit/rest": "^22.0.0",
+    "date-fns": "^4.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0"
+  },
+  "keywords": [
+    "mcp",
+    "github",
+    "calendar",
+    "team-status",
+    "project-management"
+  ],
+  "author": "",
+  "license": "MIT"
+}
