@@ -482,7 +482,7 @@ class GitHubCalendarMCPServer {
       
       const eventItems = dayEvents.slice(0, 3).map(event => {
         const primaryAssignee = event.assignees[0];
-        const color = primaryAssignee ? assigneeColorMap[primaryAssignee.login] : '#6b7280';
+        const color = primaryAssignee ? assigneeColorMap[primaryAssignee.login] : '#3b82f6';
         const isCompleted = event.status === 'closed';
         
         return `
