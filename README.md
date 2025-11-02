@@ -2,6 +2,10 @@
 
 A Model Context Protocol (MCP) server that provides GitHub project calendar and team management capabilities. This server allows AI assistants like Goose to interact with GitHub project boards, analyze team workloads, and provide scheduling insights.
 
+<a href="https://glama.ai/mcp/servers/@blackgirlbytes/github-calendar-mcp-server">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@blackgirlbytes/github-calendar-mcp-server/badge" alt="GitHub Calendar Server MCP server" />
+</a>
+
 ## Features
 
 - 📅 **Calendar Events**: Fetch GitHub project issues as calendar events
